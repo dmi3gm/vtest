@@ -1,0 +1,125 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+@font-face {
+	font-family: PTMonoRegular;
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/PTM55F_W.woff2) format('woff2'), url(../fonts/PTM55F_W.woff) format('woff');
+}
+
+html {
+  font-size: 18px;
+}
+	 
+body{
+	font-family: PTMonoRegular, Monospace;
+	height: 100%;
+	margin: auto;
+	padding: 0px;
+	background:#ddd;
+	
+}
+#wrap {
+    max-width: 640px;
+	/* min-width: 360px; */
+	margin: auto;
+    background-color: white;
+    min-height: 100%;
+    position: relative;
+}
+#header {
+    height: 75px;
+	background-color: white;
+	border-bottom: dashed;
+}
+
+#footer {
+    height: 75px;
+    background-color: white;
+    position: absolute;
+    bottom: 10;
+    width: 100%;
+	border-top: dashed;
+}
+.content {
+    padding: 15px;
+}
+#content {
+	padding-bottom: 50px;
+}
+
+.menu{
+	text-align:center;
+	font-size: 2em;
+	display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menu li {
+     margin: 0 10px 0 0;
+     padding: 0;
+     display: inline-block;
+     }
+	 
+dl {
+	margin: 0 0 5px 0;
+}
+dt{
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+dt:after {
+	content: ":";
+}
+dd {
+	margin: 0px 0px 10px 10px;
+}
+
+/* dd:before {
+	content: "- ";
+}
+ */	 
+hr {
+	margin: 20px 0;
+	padding: 0;
+	height: 2px;
+	border: none;
+	background: linear-gradient(to right, transparent 60%, #fff 40%), 
+				linear-gradient(to right, black, black);
+	background-size: 16px;
+}
+
+h1{
+	font-size: calc(24px + (35 - 24) * ((100vw - 320px) / (640 - 320)));
+}
+h2{
+}
+h3{
+}
+p{
+}
+.cat{
+  color:red;
+}
+
+#pink{
+  color:pink;
+}
+.pink{
+  color:red;
+  text-align:center;
+}
+.boz {
+	font-size: calc(32px + (58 - 32) * ((100vw - 280px) / (640 - 280)));
+	text-align:center;
+}
+.bot {
+  font-size: calc(24px + (35 - 24) * ((100vw - 280px) / (640 - 280)));
+  text-align:center;
+}
+.2ri {
+	text-align:right;
+}
