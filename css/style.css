@@ -90,7 +90,7 @@ hr {
 
 h1{
 	text-align:center;
-	font-size: calc(28px + (32 - 24) * ((100vw - 280px) / (640 - 280)));
+	font-size: calc(26px + (32 - 26) * ((100vw - 280px) / (640 - 280)));
 }
 h2{
 }
