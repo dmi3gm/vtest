@@ -9,12 +9,13 @@
 	src: url(../fonts/PTM55F_W.woff2) format('woff2'), url(../fonts/PTM55F_W.woff) format('woff');
 }
 
-html {
+/* * html {
   font-size: 18px;
-}
+} +/
 	 
 body{
 	font-family: PTMonoRegular, Monospace;
+	font-size: 18px;
 	height: 100%;
 	margin: auto;
 	padding: 0px;
