@@ -110,7 +110,7 @@ p{
   text-align:center;
 }
 .boz {
-	font-size: calc(32px + (50 - 32) * ((100vw - 280px) / (640 - 280)));
+	font-size: calc(36px + (50 - 36) * ((100vw - 280px) / (640 - 280)));
 	text-align:center;
 }
 .bot {
