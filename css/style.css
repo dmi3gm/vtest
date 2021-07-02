@@ -109,7 +109,8 @@ h1{
 h2{
     font-size: 1em;
     font-weight: bold;
-    line-height: 2em;
+/*    line-height: 2em;*/
+    margin-top: 18px;
 }
 h3{
 }
