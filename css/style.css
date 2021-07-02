@@ -88,6 +88,7 @@ dd {
 
 ol {
   list-style-type: '-';
+    padding-left: 2rem;
 }
 
 /* dd:before {
