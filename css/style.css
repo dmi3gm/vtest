@@ -30,7 +30,7 @@ body{
 	margin: auto;
     background-color: white;
     min-height: 100%;
-    position: relative;
+/*    position: relative;*/
 }
 #header {
     height: 75px;
