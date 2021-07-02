@@ -30,14 +30,14 @@ body{
 	margin: auto;
     background-color: white;
     min-height: 100%;
-/*    position: relative;*/
+    position: relative;
 }
 #header {
     height: 75px;
 	background-color: white;
 	border-bottom: dashed;
     vertical-align: middle;
-    line-height: 28px;
+/*    line-height: 28px;*/
 }
 
 #footer {
