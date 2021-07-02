@@ -107,7 +107,7 @@ h1{
 	font-size: calc(26px + (32 - 26) * ((100vw - 280px) / (640 - 280)));
 }
 h2{
-    font-size: 18px;
+    font-size: 1em;
 }
 h3{
 }
