@@ -86,8 +86,8 @@ dd {
 	margin: 0px 0px 10px 10px;
 }
 
-ol {
-  list-style-type: '-';
+ul {
+    list-style-type: '-';
     padding-left: 2rem;
 }
 
