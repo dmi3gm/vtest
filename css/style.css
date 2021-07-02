@@ -90,9 +90,9 @@ ul {
     list-style: none;
 }
 
-ul li:before {
+/*ul li:before {
     content:  "—";
-}
+}*/
 
 /* dd:before {
 	content: "- ";
