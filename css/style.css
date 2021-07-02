@@ -1,13 +1,13 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 @font-face {
 	font-family: PTMonoRegular;
 	font-weight: normal;
 	font-style: normal;
-	src: url(../fonts/PTM55F_W.woff2) format('woff2'), url(../fonts/PTM55F_W.woff) format('woff');
+		src: url(../fonts/PTM55F_W.woff2) format('woff2'), url(../fonts/PTM55F_W.woff) format('woff');
 }
 
 html {
@@ -17,7 +17,7 @@ html {
 body{
 	font-family: PTMonoRegular, Monospace;
 /*	font-size: 18px;*/
-/*    line-height: normal;*/
+	line-height:  1.618em;
 	height: 100%;
 	margin: auto;
 	padding: 0px;
@@ -36,7 +36,7 @@ body{
     height: 75px;
 	background-color: white;
 	border-bottom: dashed;
-    line-height: 28px;
+    line-height: 2em;
     vertical-align: middle;
 }
 
@@ -54,7 +54,7 @@ body{
 }
 #content {
 	padding-bottom: 50px;
-	line-height: 1.618em;
+/* 	line-height: 1.618em; */
 }
 
 .menu{
@@ -110,32 +110,36 @@ h1{
 h2{
     font-size: 1em;
     font-weight: bold;
-/*    line-height: 2em;*/
-    margin-top: 18px;
+/* 	margin-bottom: 1em; */
+	/*    line-height: 2em;*/
+/* 	margin-top: 1em; */
 }
 h3{
 }
+
 p{
-    margin-bottom: 2em;
+/*     margin-bottom: 0.5em; */
+	line-height: 1em;
 }
 .cat{
-  color:red;
+	color:red;
 }
 
 #pink{
-  color:pink;
+	color:pink;
+
 }
 .pink{
-  color:red;
-  text-align:center;
+	color:red;
+	text-align:center;
 }
 .boz {
 	font-size: calc(36px + (50 - 36) * ((100vw - 280px) / (640 - 280)));
 	text-align:center;
 }
 .bot {
-  font-size: calc(24px + (28 - 24) * ((100vw - 280px) / (640 - 280)));
-  text-align:center;
+	font-size: calc(24px + (28 - 24) * ((100vw - 280px) / (640 - 280)));
+	text-align:center;
 }
 .2ri {
 	text-align:right;
