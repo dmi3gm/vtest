@@ -37,6 +37,7 @@ body{
 	background-color: white;
 	border-bottom: dashed;
     vertical-align: middle;
+    line-height: 28px;
 }
 
 #footer {
