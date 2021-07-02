@@ -60,6 +60,7 @@ body{
 .menu{
 	text-align:center;
 	font-size: 28px;
+	line-height: 28px;
 	display: block;
     margin: 0;
     padding: 0;
