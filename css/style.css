@@ -30,7 +30,7 @@ body{
 	/* display: flex; */
 	/* flex-direction: column; /*новое*/
 	min-height: 100%;
-	max-width: 40em;
+	max-width: 35em;
 	min-width: 25em;
 	/* min-width: 360px; */
 	margin: auto;
