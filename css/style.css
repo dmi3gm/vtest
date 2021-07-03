@@ -21,17 +21,17 @@ body{
 	background:#eeeeee;
 /*	font-size: 18px;*/
 	/* line-height:  1.618em; */
-	margin: auto;
+	margin: 10px;
 	padding: 0px;
 	color: 221f1f
 }
 #wrap {
-	min-height: 100vh
-	display: flex; /*новое*/
-	flex-direction: column; /*новое*/
-	/* min-height: 100%; *//*было*/
-	max-width: 40em;
-	max-width: 30em;
+	/* min-height: 100vh; */
+	/* display: flex; */
+	/* flex-direction: column; /*новое*/
+	min-height: 100%;
+	max-width: 26em;
+	min-width: 20em;
 	/* min-width: 360px; */
 	margin: auto;
     background-color: #fefefe;
@@ -41,19 +41,19 @@ body{
 #header {
     height: 75px;
 	/* background-color: fffaec; */
-	border-bottom: 10px solid #eeeeee;
+	border-bottom: 5px solid #eeeeee;
     /* line-height: 28px; */
     vertical-align: middle;
 }
 
 #footer {
-    height: 75px;
+    height: 100px;
     /* background-color: fffaec; */
 	text-align:center;
     position: absolute;
-    bottom: 10;
+    bottom: 20px;
     width: 100%;
-	border-top: 10px solid #eeeeee;
+	border-top: 5px solid #eeeeee;
 }
 .content {
 	font-size:max(0.5em, min(1em, 6.666vw));
@@ -63,6 +63,8 @@ body{
 }
 #content {
 	padding-bottom: 50px;
+	border-bottom: 5px solid #eeeeee;
+	border-top: 5px solid #eeeeee;
 /* 	line-height: 1.618em; */
 }
 
