@@ -11,7 +11,7 @@
 }
 
 html {
-/*  font-size: 18px;*/
+  font-size: 18px;
   line-height: 1.4;
 }
 	 
@@ -30,11 +30,9 @@ body{
 	/* min-height: 100vh; */
 	/* display: flex; */
 	/* flex-direction: column; /*новое*/
-	font-size: 18px;
 	min-height: 100%;
 /*	max-width: 320px;*/
 /*	min-width: 25em;*/
-	/* min-width: 360px; */
 	margin: auto;
     background-color: #fefefe;
     position: relative;
