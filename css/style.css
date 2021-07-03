@@ -16,24 +16,28 @@ html {
 }
 	 
 body{
+	height: 100%;
 	font-family: PTMonoRegular, Monospace;
+	background:#eeeeee;
 /*	font-size: 18px;*/
 	/* line-height:  1.618em; */
-	height: 100%;
 	margin: auto;
 	padding: 0px;
-	background:#eeeeee;
 	color: 221f1f
 }
 #wrap {
-    max-width: 40em;
+	min-height: 100vh
+	display: flex; /*новое*/
+	flex-direction: column; /*новое*/
+	/* min-height: 100%; *//*было*/
+	max-width: 40em;
 	max-width: 30em;
 	/* min-width: 360px; */
 	margin: auto;
     background-color: #fefefe;
-    min-height: 100%;
     position: relative;
 }
+
 #header {
     height: 75px;
 	/* background-color: fffaec; */
@@ -173,7 +177,7 @@ a:active {
 	display: block;
 /* 	background: #fffaec; */
 	margin:  0 auto;
-	padding: 20px;
+	padding: 10px;
 	border: 1px solid #e50914;
 	/* font-size:max(1em, min(2em, 6.666vw)); */
 	word-break: break-word;
