@@ -20,7 +20,7 @@ body{
 	height: 100%;
 	font-family: PTMonoRegular, Monospace;
 	background:#eeeeee;
-	font-size: 16px;
+/*	font-size: 16px;*/
 	/* line-height:  1.618em; */
 	margin: 10px;
 	padding: 0px;
@@ -30,6 +30,7 @@ body{
 	/* min-height: 100vh; */
 	/* display: flex; */
 	/* flex-direction: column; /*новое*/
+	font-size: 16px;
 	min-height: 100%;
 	max-width: 30em;
 	min-width: 25em;
