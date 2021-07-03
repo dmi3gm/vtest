@@ -62,7 +62,7 @@ body{
 	border-top: 5px solid #eeeeee;
 }
 .content {
-	font-size:max(0.5em, min(1em, 6.666vw));
+	font-size:max(0.9em, min(1em, 6.666vw));
     padding: 10px;
 	/* margin-bottom: 1em; */
 	
