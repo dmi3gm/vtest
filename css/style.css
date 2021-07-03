@@ -11,15 +11,16 @@
 }
 
 html {
-  font-size: 18px;
+/*  font-size: 18px;*/
   line-height: 1.4;
 }
 	 
 body{
+    
 	height: 100%;
 	font-family: PTMonoRegular, Monospace;
 	background:#eeeeee;
-/*	font-size: 18px;*/
+	font-size: 18px;
 	/* line-height:  1.618em; */
 	margin: 10px;
 	padding: 0px;
